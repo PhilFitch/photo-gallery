@@ -1,6 +1,6 @@
 export default function renderCreature(images) {
     const html = /*html*/`
-        <li>
+        <li title="${images.description}">
             <h2>${images.title}</h2>
             <div class="image-container">
                 <img class="card-image" src="${images.url}" alt="${images.title}">

@@ -1,3 +1,9 @@
+body {
+    background-image: url("../assets/bubble-clipart-wallpaper-7.jpg");
+    background-size: cover;
+    background-repeat: no no-repeat;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,6 +27,7 @@ header h1 {
 main {
     width: 85%;
     margin: 0 auto;
+    
 }
 
 ul {
@@ -86,8 +93,20 @@ select {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
     background-color: rgb(225, 252, 252);
     display: fixed;
     position: bottom;
+}
+
+footer p {
+    margin: 0px 15px;
+}
+
+footer img {
+    max-height: 80%;
+    margin: 0px 15px;
 }
